@@ -1,11 +1,8 @@
-import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 
 public class GerenciadorDeNotas {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         List<Double> notas = new ArrayList<>();
 
         System.out.println("---Gerenciador de notas---");
