@@ -1,0 +1,16 @@
+# Arquivos de classe Java compilados
+*.class
+
+# Arquivos de log
+*.log
+
+# Pasta de saída de compilação do VS Code
+/bin/
+
+# Arquivos de pacote
+*.jar
+*.war
+*.ear
+
+# Configurações do VS Code
+.vscode/

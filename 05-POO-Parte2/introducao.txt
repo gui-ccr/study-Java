@@ -1,0 +1,7 @@
+Aprofundando nos conceitos que dão poder e flexibilidade à POO.
+
+O pilar da Herança: extends.
+
+O pilar do Polimorfismo: Sobrescrita de métodos com @Override.
+
+Classes Abstratas e Interfaces: definindo "contratos".

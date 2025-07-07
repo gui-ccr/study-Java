@@ -1,0 +1,7 @@
+Uma habilidade profissional crucial: como lidar com erros de forma elegante.
+
+O que são Exceptions.
+
+Os blocos try, catch e finally.
+
+Criando e lançando suas próprias exceções com throw.

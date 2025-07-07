@@ -1,0 +1,11 @@
+Como organizar e trabalhar com múltiplos dados de forma eficiente.
+
+Arrays (vetores): a estrutura de dados fundamental de tamanho fixo.
+
+Introdução ao Java Collections Framework.
+
+Listas dinâmicas com ArrayList.
+
+Mapas (chave-valor) com HashMap.
+
+Percorrendo coleções com o "enhanced for loop".

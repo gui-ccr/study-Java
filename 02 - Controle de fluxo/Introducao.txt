@@ -1,0 +1,9 @@
+Como fazer nosso programa tomar decisões e repetir ações.
+
+Operadores relacionais (==, !=, >, <) e lógicos (&&, ||, !).
+
+Estruturas condicionais: if, else, else if.
+
+Estrutura de múltipla escolha: switch.
+
+Laços de repetição: while, do-while e for.

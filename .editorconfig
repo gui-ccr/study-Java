@@ -1,0 +1,31 @@
+# editorconfig.org
+# Este é o arquivo de configuração principal. 'root = true' impede que ele
+# procure por outros arquivos .editorconfig em pastas superiores.
+root = true
+
+# O asterisco [*] significa que as regras abaixo se aplicam a TODOS os arquivos
+[*]
+# Define o tipo de indentação: 'space' (espaços) ou 'tab' (tabulações).
+# Usar espaços é o padrão mais comum e evita problemas de visualização entre editores.
+indent_style = space
+
+# Define o tamanho da indentação (quantos espaços por nível).
+# 4 é o padrão mais comum e recomendado para Java. Para Dart/Flutter, usamos 2.
+indent_size = 4
+
+# Define o tipo de final de linha: 'lf', 'cr', ou 'crlf'.
+# 'lf' (Line Feed) é o padrão para Linux e macOS. 'crlf' é para Windows.
+# Usar 'lf' universalmente evita problemas de consistência no Git.
+end_of_line = lf
+
+# Define o conjunto de caracteres dos arquivos.
+# utf-8 é o padrão universal da web e da programação moderna.
+charset = utf-8
+
+# Remove espaços em branco desnecessários no final das linhas antes de salvar.
+# Ajuda a manter o código limpo.
+trim_trailing_whitespace = true
+
+# Garante que todo arquivo termine com uma linha em branco no final.
+# É uma convenção de muitos sistemas e ferramentas baseadas em Unix.
+insert_final_newline = true

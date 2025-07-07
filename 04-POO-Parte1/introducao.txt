@@ -1,0 +1,11 @@
+O paradigma que define o Java. Começaremos a pensar em termos de "objetos" do mundo real.
+
+O que são Classes e Objetos? A diferença entre a "planta" e a "casa".
+
+Atributos (as características) e Métodos (os comportamentos).
+
+Criando objetos com a palavra-chave new.
+
+Construtores: como um objeto "nasce".
+
+O pilar do Encapsulamento: modificadores de acesso public e private.
