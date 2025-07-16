@@ -1,85 +1,104 @@
-# 📚 Meus Estudos de Java
+# ☕ Jornada Java: Do Zero ao Avançado
 
-Este repositório é dedicado ao meu caminho de aprendizado em Java, documentando os conceitos, exercícios e projetos desenvolvidos ao longo da jornada. Meu objetivo é construir uma base sólida na linguagem, desde os fundamentos até tópicos mais avançados como Programação Orientada a Objetos e estruturas de dados complexas.
+**Um repositório pessoal para registrar e solidificar meus estudos na linguagem Java.**
 
-## 🚀 Progresso Atual: Fundamentos e Estruturas de Dados Essenciais
+[![Java](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green.svg)](#-status-do-projeto)
 
-Até o momento, tenho focado nos pilares da linguagem e em como manipular coleções de dados de forma eficiente.
+## 📖 Sobre o Projeto
 
-### 📝 Conceitos Abrangentes até Agora:
+Este repositório é o meu diário de bordo no universo Java. Ele foi criado com o principal objetivo de ser um espaço centralizado para documentar meu aprendizado, desde os conceitos mais básicos da sintaxe até os pilares da Programação Orientada a Objetos e o uso de estruturas de dados complexas.
 
-Estou construindo meu conhecimento nos seguintes tópicos:
+O conteúdo é voltado para quem está na mesma jornada - **desenvolvedores, estudantes de programação e recrutadores** - que queiram acompanhar meu progresso ou revisitar conceitos fundamentais da linguagem.
 
-* **Capítulo 01: Fundamentos - Variáveis, Tipos e Operadores**
-    * Compreensão da anatomia básica de um programa Java ("Hello, World!").
-    * Uso de comentários, compilação (`javac`) e execução (`java`).
-    * Domínio dos 8 Tipos Primitivos (inteiros, decimais, booleanos, caracteres) e suas aplicações.
-    * Trabalho com o tipo `String` para manipulação de textos.
-    * Utilização de Operadores aritméticos (`+`, `-`, `*`, `/`, `%`) e de atribuição.
-    * Aplicação de Operadores relacionais (`==`, `!=`, `>`, `<`, `>=`, `<=`) e lógicos (`&&`, `||`, `!`) para construir condições complexas.
+## 💻 Status do Projeto
 
-* **Capítulo 02: Controle de Fluxo**
-    * Implementação de estruturas condicionais: `if`, `else`, `else if` para tomadas de decisão.
-    * Uso da estrutura de múltipla escolha `switch` para cenários com múltiplos caminhos baseados em um único valor.
-    * Exploração dos laços de repetição:
-        * `while`: Para repetir blocos de código enquanto uma condição for verdadeira.
-        * `do-while`: Para garantir que um bloco de código seja executado pelo menos uma vez, e depois repetido enquanto uma condição for verdadeira (muito útil para validação de entrada de usuário!).
-        * `for`: Para loops com um número definido de iterações, controlando inicialização, condição e atualização.
-        * "Enhanced `for` loop" (ou `for-each`): Para iterar de forma concisa sobre arrays e coleções.
+O projeto está **em pleno desenvolvimento**. Os capítulos iniciais sobre os fundamentos da linguagem estão bem estabelecidos e os próximos passos estão focados em tópicos mais avançados.
 
-* **Capítulo 03: Estruturas de Dados - Arrays e Coleções**
-    * **Arrays (vetores)**: Compreensão da estrutura de dados fundamental de tamanho fixo, declaração, inicialização, acesso a elementos por índice e a propriedade `length`.
-    * **Java Collections Framework (JCF) - Introdução**: Entendimento do propósito do JCF para gerenciar grupos de objetos de forma dinâmica.
-    * **Listas Dinâmicas com `ArrayList`**: Uso prático da implementação `ArrayList` para criar listas que podem crescer e encolher dinamicamente, com métodos como `add()`, `get()`, `remove()` e `size()`.
-    * **Mapas (chave-valor) com `HashMap`**: Aplicação da estrutura `HashMap` para armazenar e recuperar dados em pares de chave-valor, utilizando métodos como `put()`, `get()`, `remove()`, `containsKey()` e iterando com `entrySet()`.
+## 📜 Índice
 
-### 📂 Estrutura do Repositório:
+* [Sobre o Projeto](#-sobre-o-projeto)
+* [Status do Projeto](#-status-do-projeto)
+* [Funcionalidades](#-funcionalidades)
+* [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+* [Instalação e Uso](#-instalação-e-uso)
+* [Como Contribuir](#-como-contribuir)
+* [Autor](#-autor)
+* [Licença](#-licença)
 
-A organização dos arquivos segue uma estrutura de "capítulos" que reflete meu plano de estudos, com os códigos-fonte (`.java`) localizados em subdiretórios `src` dentro de cada capítulo.
 
-```
-.
-├── 01-Fundamentos/
-│   └── src/
-│       ├── Constantes.java
-│       ├── DetalhesString.java
-│       ├── HelloWorld.java
-│       ├── LeitorDeDados.java
-│       ├── ManipulacaoStrings.java
-│       ├── OperadoresAtalho.java
-│       ├── OperadoresBasicos.java
-│       └── TiposPrimitivos.java
-├── 02-Controle de fluxo/
-│   └── src/
-│       ├── Introducao.txt
-│       ├── VerificaVotacao.java
-│       ├── ExemploSwitchDiaSemana.java
-│       ├── SwitchDiaDaSemanaCorrigido.java
-│       └── ... (outros arquivos de controle de fluxo)
-├── 03-Estruturas De Dados/
-│   └── src/
-│       ├── Arrays.java
-│       ├── TemperaturasSemanais.java
-│       ├── GerenciadorDeNotas.java
-│       ├── EstoqueProdutos.java
-│       └── ... (outros arquivos de estruturas de dados)
-├── 04-POO-Parte1/
-├── 05-POO-Parte2/
-├── 06-Excecoes/
-└── .editorconfig
+## ✨ Funcionalidades
 
-```
-## 🎯 Próximos Passos:
+Até o momento, o repositório cobre uma gama de conceitos essenciais, organizados em capítulos de estudo:
 
-O próximo foco será em aprofundar na **Programação Orientada a Objetos (POO)**, explorando conceitos como Classes, Objetos, Atributos, Métodos e o pilar do Encapsulamento.
+* **Fundamentos da Linguagem:**
+    * Sintaxe básica e "Olá, Mundo!".
+    * Tipos primitivos, variáveis e constantes.
+    * Manipulação de `String` e uso de métodos essenciais.
+    * Operadores aritméticos, lógicos e relacionais.
+    * Entrada e saída de dados no console com `Scanner`.
 
-## ✨ Como Executar os Códigos:
+* **Controle de Fluxo:**
+    * Estruturas condicionais `if/else` e `switch` para tomada de decisões.
+    * Laços de repetição `for`, `while` e `do-while` para executar blocos de código.
 
-1.  Clone este repositório: `git clone <https://github.com/gui-ccr/Estudos-Java>`
-2.  Navegue até a pasta do capítulo desejado (ex: `cd 01-Fundamentos/src`).
-3.  Compile o arquivo `.java` desejado: `javac NomeDoArquivo.java`
-4.  Execute o arquivo compilado: `java NomeDoArquivo`
+* **Estruturas de Dados:**
+    * Uso de **Arrays** (vetores) de tamanho fixo.
+    * Introdução ao Java Collections Framework.
+    * Listas dinâmicas com **`ArrayList`**.
+    * Estruturas de chave-valor com **`HashMap`**.
 
-Sinta-se à vontade para explorar os códigos e acompanhar meu progresso!
+* **Programação Orientada a Objetos (POO) - Parte 1:**
+    * Introdução a Classes, Atributos e Métodos.
+    * Criação de objetos com a palavra-chave `new`.
+    * O pilar do Encapsulamento com `public` e `private`.
+    * Construtores para inicializar objetos.
 
----
+E muito mais está por vir, incluindo Herança, Polimorfismo e Tratamento de Exceções!
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Java:** A linguagem principal usada para todos os códigos e exemplos.
+* **Git & GitHub:** Para controle de versão e gerenciamento do repositório.
+
+## 🚀 Instalação e Uso
+
+Você pode facilmente executar os códigos deste repositório em sua máquina local.
+
+1.  **Clone o repositório:**
+    ```sh
+    git clone [https://github.com/gui-ccr/Estudos-Java.git](https://github.com/gui-ccr/Estudos-Java.git)
+    ```
+2.  **Navegue até a pasta do código:**
+    ```sh
+    cd Estudos-Java/01-Fundamentos/src
+    ```
+3.  **Compile o arquivo `.java`:**
+    ```sh
+    javac HelloWorld.java
+    ```
+4.  **Execute o programa:**
+    ```sh
+    java HelloWorld
+    ```
+
+## 🤝 Como Contribuir
+
+Apesar de ser um repositório de estudos pessoais, sugestões e correções são sempre bem-vindas! Se você encontrar um erro ou tiver uma ideia para melhorar um código, sinta-se à vontade para contribuir.
+
+1.  **Faça um Fork** do projeto.
+2.  **Crie uma nova Branch** (`git checkout -b feature/MelhoriaIncrivel`).
+3.  **Faça o Commit** de suas alterações (`git commit -m 'Adiciona MelhoriaIncrivel'`).
+4.  **Faça o Push** para a Branch (`git push origin feature/MelhoriaIncrivel`).
+5.  **Abra um Pull Request**.
+
+## 👤 Autor
+
+| Foto de Perfil | Nome (Clique para visitar) | Responsabilidade |
+|:---:|---|---|
+| <img src="https://github.com/gui-ccr.png" width="100" alt="Foto do Guilherme" style="border-radius: 50%;"> | [**Guilherme (gui-ccr)**](https://github.com/gui-ccr) | Autor |
+
+## 📄 Licença
+
+Este projeto está distribuído sob a licença MIT.
