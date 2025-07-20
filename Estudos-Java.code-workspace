@@ -8,7 +8,12 @@
 		},
 		{
 			"path": "03-Estruturas De Dados"
+		},
+		{
+			"path": "04-POO-Parte1"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
 }
