@@ -41,8 +41,7 @@ class Carro {
         System.out.println("Status: " + marca + " " + modelo + " - Velocidade: " + velocidade + " km/h, Direção: " + direcao);
     }
 }
-
-public class TesteEncadeamento {
+class TesteEncadeamento {
     public static void main(String[] args) {
         Carro meuCarro = new Carro("Ford", "Mustang");
 
