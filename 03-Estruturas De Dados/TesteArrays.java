@@ -1,7 +1,8 @@
 import java.util.ArrayList; // Importa a classe ArrayList
+import java.util.Arrays; // Importa a classe Arrays
 import java.util.List; // Boa prática importar também a interface List
 
-public class ArrayLists {
+public class TesteArrays {
     public static void main(String[] args) {
         // Declaração usando a interface List (boa prática para flexibilidade)
         // e inicialização com a implementação ArrayList
@@ -39,30 +40,55 @@ public class ArrayLists {
         // List<Boolean> status = new ArrayList<>(); // Lista de booleanos (Boolean é o
         // "wrapper" para boolean)
 
-        String primeiraFruta = frutas.get(0);
-        System.out.println("Primeira fruta: " + primeiraFruta);
+        // String primeiraFruta = frutas.get(0);
+        // System.out.println("Primeira fruta: " + primeiraFruta);
 
-        String segundafruta = frutas.get(1);
-        System.out.println("Segunda fruta: " + segundafruta);
+        // String segundafruta = frutas.get(1);
+        // System.out.println("Segunda fruta: " + segundafruta);
 
-        frutas.remove(3); // remove o laranja
-        System.out.println(frutas);
+        // frutas.remove(3); // remove o laranja
+        // System.out.println(frutas);
 
-        frutas.remove("Pera"); // remove o objeto pera se ele existir
-        System.out.println(frutas);
+        // frutas.remove("Pera"); // remove o objeto pera se ele existir
+        // System.out.println(frutas);
 
-        int quantidade = frutas.size();
-        System.out.println("Quantidade de frutas na lista: " + quantidade);
+        // int quantidade = frutas.size();
+        // System.out.println("Quantidade de frutas na lista: " + quantidade);
 
-        System.out.println("Minhas frutas:");
-        for (String fruta : frutas) { // Para cada String 'fruta' na lista 'frutas'
-            System.out.println("- " + fruta);
+        // System.out.println("Minhas frutas:");
+        // for (String fruta : frutas) { // Para cada String 'fruta' na lista 'frutas'
+        //     System.out.println("- " + fruta);
+        // }
+
+        // System.out.println("Frutas com índice:");
+        // for (int i = 0; i < frutas.size(); i++) {
+        //     System.out.println("No índice " + i + ": " + frutas.get(i));
+        // }
+
+        String[] comidas = {"pizza", "Hamburger", "Cachorro-Quente"};
+
+        System.out.println(comidas); // isso vai me retornar endereço da minha lista
+
+        System.out.println(comidas[0]); // assim eu imprimo pelo indice da minha lista
+
+        int NumeroDeComidas = comidas.length;
+        // caso eu queria imprimir cada uma eu posso usar o for/for each loop
+
+        //? ========= LOOP FOR =================
+        // for(int i = 0 ; i < comidas.length; i++ ){
+        //     System.out.println(comidas[i]);
+
+        // }
+
+        // ? ========== LOOP FOR EACH ===============
+
+        Arrays.sort(comidas);
+        for(String comida : comidas){
+            System.out.println(comida);
         }
 
-        System.out.println("Frutas com índice:");
-        for (int i = 0; i < frutas.size(); i++) {
-            System.out.println("No índice " + i + ": " + frutas.get(i));
-        }
+
+
 
     }
 }
